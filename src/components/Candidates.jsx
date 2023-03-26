@@ -11,9 +11,9 @@ const Candidates = () => {
     console.log(candidates);
 
   return (
-    <div class="dark:bg-gray-900">
-        <h2 class="mb-4 ml-10  max-w-screen-xl text-4xl tracking-tight underline font-extrabold text-gray-900 dark:text-white">Hire the best</h2>
-        <div className='dark:bg-gray-900 ml-10 grid sm:grid-cols-2 md:grid-cols-4 gap-4 content-evenly sm:px-0'>
+    <div>
+        <h2 class="mb-4 ml-10  max-w-screen-xl text-4xl tracking-tight underline font-bold mt-4 text-gray-900">Hire the best</h2>
+        <div className='grid sm:grid-cols-2 md:grid-cols-4 gap-4 content-evenly sm:px-0'>
             {
                 candidates.map(candidate=>{
                     return (
